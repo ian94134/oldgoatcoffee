@@ -80,10 +80,18 @@ for (const name of names) {
 }
 await nojs.close();
 const legacy=await browser.newPage();
+await legacy.goto(base);
+await legacy.goto(base+'#menu');
+await legacy.waitForURL(base+'menu/');
 for (const name of ['menu','rental','about','contact','home']) {
   await legacy.goto(base+'#'+name);
   await legacy.waitForURL(base+(name==='home'?'':name+'/'));
 }
+const homeLegacy=await browser.newPage({reducedMotion:'reduce'});
+await homeLegacy.goto(base+'#home');
+await homeLegacy.waitForURL(base);
+await homeLegacy.locator('[data-action="heroNext"]').click();
+assert.equal(await homeLegacy.locator('[data-slide="1"]').getAttribute('aria-hidden'),'false','Initial #home must initialize interactions');
 const memory=await browser.newPage({reducedMotion:'reduce'});
 await memory.addInitScript(()=>{
   const Native=window.IntersectionObserver;
