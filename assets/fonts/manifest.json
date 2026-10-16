@@ -1,0 +1,72 @@
+{
+  "sans-cbcfeaf9fb7b": {
+    "path": "assets/fonts/sans.6bc8abfda8cd.woff2",
+    "bytes": 217676,
+    "characters": 720,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "serif-7073dd31c136": {
+    "path": "assets/fonts/serif.f2be24bbd5af.woff2",
+    "bytes": 72380,
+    "characters": 162,
+    "family": "Noto Serif TC",
+    "weights": "400..900"
+  },
+  "sans-f2fd81510cd1": {
+    "path": "assets/fonts/sans.8c4028d88f5b.woff2",
+    "bytes": 178552,
+    "characters": 564,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "serif-2738b58bb28e": {
+    "path": "assets/fonts/serif.54466fe5a2df.woff2",
+    "bytes": 22912,
+    "characters": 50,
+    "family": "Noto Serif TC",
+    "weights": "400..900"
+  },
+  "sans-4d40d47b9d39": {
+    "path": "assets/fonts/sans.e15eff2a054c.woff2",
+    "bytes": 95120,
+    "characters": 334,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "serif-b4ddaf9b09bb": {
+    "path": "assets/fonts/serif.1a9b87b4e53f.woff2",
+    "bytes": 23072,
+    "characters": 52,
+    "family": "Noto Serif TC",
+    "weights": "400..900"
+  },
+  "sans-62529ef254b0": {
+    "path": "assets/fonts/sans.48e85695bf0f.woff2",
+    "bytes": 139588,
+    "characters": 467,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "serif-efa1b46cd653": {
+    "path": "assets/fonts/serif.b14ad35e13b4.woff2",
+    "bytes": 48876,
+    "characters": 117,
+    "family": "Noto Serif TC",
+    "weights": "400..900"
+  },
+  "sans-8021ab00f38b": {
+    "path": "assets/fonts/sans.2eaf0b5fe5f1.woff2",
+    "bytes": 74760,
+    "characters": 274,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "serif-75a21eadaae5": {
+    "path": "assets/fonts/serif.2a9dbd58ebd3.woff2",
+    "bytes": 25092,
+    "characters": 59,
+    "family": "Noto Serif TC",
+    "weights": "400..900"
+  }
+}
