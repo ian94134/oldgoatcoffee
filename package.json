@@ -1,0 +1,30 @@
+{
+  "name": "oldgoatcoffee",
+  "version": "1.0.0",
+  "description": "Static, crawlable GitHub Pages site with preserved original content",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "test:baseline": "node scripts/capture-baseline.mjs",
+    "test:site": "node scripts/verify.mjs",
+    "test": "npm run test:baseline && npm run test:site",
+    "audit:summary": "node scripts/audit-summary.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian94134/oldgoatcoffee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ian94134/oldgoatcoffee/issues"
+  },
+  "homepage": "https://github.com/ian94134/oldgoatcoffee#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "lighthouse": "^13.5.0",
+    "linkedom": "^0.18.13"
+  }
+}
