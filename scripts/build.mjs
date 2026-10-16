@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile, readdir, unlink } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { parseHTML } from 'linkedom';
 import { original, Component, values } from './source.mjs';
@@ -228,7 +228,5 @@ for (const {path,document} of outputs) {
 }
 await writeFile(new URL('sitemap.xml',root),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+Component.PAGES.map(p=>`  <url><loc>${base}${p==='home'?'':p+'/'}</loc><lastmod>2026-10-16</lastmod></url>`).join('\n')+'\n</urlset>\n');
 await writeFile(new URL('.nojekyll',root),'\n');
-for(const file of await readdir(new URL('assets/',root))) {
-  if(/^site\.[a-f0-9]{10}\.(css|js)$/.test(file) && ![scriptName,cssName].includes('assets/'+file)) await unlink(new URL('assets/'+file,root));
-}
+// Keep previous hashed assets available for visitors with cached HTML.
 console.log(`Built ${outputs.length} static pages; ${scriptName}; ${cssName}`);
