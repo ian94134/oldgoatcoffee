@@ -1,0 +1,2051 @@
+{
+  "assets/brands/heinz-banner.png": {
+    "src": "assets/optimized/brands/heinz-banner.webp",
+    "width": 1600,
+    "height": 655,
+    "bytes": 210972,
+    "originalBytes": 588965,
+    "variants": [
+      {
+        "src": "assets/optimized/brands/heinz-banner-480w.webp",
+        "width": 480,
+        "height": 197,
+        "bytes": 34460
+      },
+      {
+        "src": "assets/optimized/brands/heinz-banner-960w.webp",
+        "width": 960,
+        "height": 393,
+        "bytes": 95316
+      },
+      {
+        "src": "assets/optimized/brands/heinz-banner.webp",
+        "width": 1600,
+        "height": 655,
+        "bytes": 210972
+      }
+    ]
+  },
+  "assets/brands/kewpie.png": {
+    "src": "assets/optimized/brands/kewpie.webp",
+    "width": 502,
+    "height": 184,
+    "bytes": 23294,
+    "originalBytes": 52843,
+    "variants": [
+      {
+        "src": "assets/optimized/brands/kewpie-480w.webp",
+        "width": 480,
+        "height": 176,
+        "bytes": 45016
+      },
+      {
+        "src": "assets/optimized/brands/kewpie.webp",
+        "width": 502,
+        "height": 184,
+        "bytes": 23294
+      }
+    ]
+  },
+  "assets/brands/nutella.png": {
+    "src": "assets/optimized/brands/nutella.webp",
+    "width": 1600,
+    "height": 468,
+    "bytes": 24256,
+    "originalBytes": 78974,
+    "variants": [
+      {
+        "src": "assets/optimized/brands/nutella-480w.webp",
+        "width": 480,
+        "height": 140,
+        "bytes": 11794
+      },
+      {
+        "src": "assets/optimized/brands/nutella-960w.webp",
+        "width": 960,
+        "height": 281,
+        "bytes": 22242
+      },
+      {
+        "src": "assets/optimized/brands/nutella.webp",
+        "width": 1600,
+        "height": 468,
+        "bytes": 24256
+      }
+    ]
+  },
+  "assets/combo-square.jpeg": {
+    "src": "assets/optimized/combo-square.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 101844,
+    "originalBytes": 99619,
+    "variants": [
+      {
+        "src": "assets/optimized/combo-square-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 55416
+      },
+      {
+        "src": "assets/optimized/combo-square.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 101844
+      }
+    ]
+  },
+  "assets/craft-espresso.jpg": {
+    "src": "assets/optimized/craft-espresso.webp",
+    "width": 1600,
+    "height": 1069,
+    "bytes": 65516,
+    "originalBytes": 266377,
+    "variants": [
+      {
+        "src": "assets/optimized/craft-espresso-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 14662
+      },
+      {
+        "src": "assets/optimized/craft-espresso-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 34416
+      },
+      {
+        "src": "assets/optimized/craft-espresso.webp",
+        "width": 1600,
+        "height": 1069,
+        "bytes": 65516
+      }
+    ]
+  },
+  "assets/craft-portafilter.jpg": {
+    "src": "assets/optimized/craft-portafilter.webp",
+    "width": 1600,
+    "height": 1069,
+    "bytes": 50622,
+    "originalBytes": 240888,
+    "variants": [
+      {
+        "src": "assets/optimized/craft-portafilter-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 11828
+      },
+      {
+        "src": "assets/optimized/craft-portafilter-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 28082
+      },
+      {
+        "src": "assets/optimized/craft-portafilter.webp",
+        "width": 1600,
+        "height": 1069,
+        "bytes": 50622
+      }
+    ]
+  },
+  "assets/detail-fern.jpg": {
+    "src": "assets/optimized/detail-fern.webp",
+    "width": 1064,
+    "height": 1592,
+    "bytes": 117628,
+    "originalBytes": 293370,
+    "variants": [
+      {
+        "src": "assets/optimized/detail-fern-480w.webp",
+        "width": 480,
+        "height": 718,
+        "bytes": 42088
+      },
+      {
+        "src": "assets/optimized/detail-fern-960w.webp",
+        "width": 960,
+        "height": 1436,
+        "bytes": 103186
+      },
+      {
+        "src": "assets/optimized/detail-fern.webp",
+        "width": 1064,
+        "height": 1592,
+        "bytes": 117628
+      }
+    ]
+  },
+  "assets/detail-frog.jpg": {
+    "src": "assets/optimized/detail-frog.webp",
+    "width": 1600,
+    "height": 2133,
+    "bytes": 662436,
+    "originalBytes": 3026262,
+    "variants": [
+      {
+        "src": "assets/optimized/detail-frog-480w.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 59480
+      },
+      {
+        "src": "assets/optimized/detail-frog-960w.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 232506
+      },
+      {
+        "src": "assets/optimized/detail-frog.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 662436
+      }
+    ]
+  },
+  "assets/drink-pour.jpg": {
+    "src": "assets/optimized/drink-pour.webp",
+    "width": 1206,
+    "height": 2132,
+    "bytes": 93400,
+    "originalBytes": 262964,
+    "variants": [
+      {
+        "src": "assets/optimized/drink-pour-480w.webp",
+        "width": 480,
+        "height": 849,
+        "bytes": 30140
+      },
+      {
+        "src": "assets/optimized/drink-pour-960w.webp",
+        "width": 960,
+        "height": 1697,
+        "bytes": 70124
+      },
+      {
+        "src": "assets/optimized/drink-pour.webp",
+        "width": 1206,
+        "height": 2132,
+        "bytes": 93400
+      }
+    ]
+  },
+  "assets/drink-signature.jpg": {
+    "src": "assets/optimized/drink-signature.webp",
+    "width": 1600,
+    "height": 1069,
+    "bytes": 217162,
+    "originalBytes": 446469,
+    "variants": [
+      {
+        "src": "assets/optimized/drink-signature-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 33588
+      },
+      {
+        "src": "assets/optimized/drink-signature-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 102196
+      },
+      {
+        "src": "assets/optimized/drink-signature.webp",
+        "width": 1600,
+        "height": 1069,
+        "bytes": 217162
+      }
+    ]
+  },
+  "assets/food-hero.jpg": {
+    "src": "assets/optimized/food-hero.webp",
+    "width": 1600,
+    "height": 1067,
+    "bytes": 345592,
+    "originalBytes": 344442,
+    "variants": [
+      {
+        "src": "assets/optimized/food-hero-480w.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44124
+      },
+      {
+        "src": "assets/optimized/food-hero-960w.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 144272
+      },
+      {
+        "src": "assets/optimized/food-hero.webp",
+        "width": 1600,
+        "height": 1067,
+        "bytes": 345592
+      }
+    ]
+  },
+  "assets/hero/bar-espresso-close.jpg": {
+    "src": "assets/optimized/hero/bar-espresso-close.webp",
+    "width": 1400,
+    "height": 936,
+    "bytes": 45380,
+    "originalBytes": 80394,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/bar-espresso-close-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 12234
+      },
+      {
+        "src": "assets/optimized/hero/bar-espresso-close-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 27630
+      },
+      {
+        "src": "assets/optimized/hero/bar-espresso-close.webp",
+        "width": 1400,
+        "height": 936,
+        "bytes": 45380
+      }
+    ]
+  },
+  "assets/hero/bar-portafilters.jpg": {
+    "src": "assets/optimized/hero/bar-portafilters.webp",
+    "width": 1400,
+    "height": 936,
+    "bytes": 79470,
+    "originalBytes": 123239,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/bar-portafilters-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 19598
+      },
+      {
+        "src": "assets/optimized/hero/bar-portafilters-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 47980
+      },
+      {
+        "src": "assets/optimized/hero/bar-portafilters.webp",
+        "width": 1400,
+        "height": 936,
+        "bytes": 79470
+      }
+    ]
+  },
+  "assets/hero/brunch-spread-hero.jpg": {
+    "src": "assets/optimized/hero/brunch-spread-hero.webp",
+    "width": 1400,
+    "height": 933,
+    "bytes": 311194,
+    "originalBytes": 323522,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/brunch-spread-hero-480w.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42972
+      },
+      {
+        "src": "assets/optimized/hero/brunch-spread-hero-960w.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 148616
+      },
+      {
+        "src": "assets/optimized/hero/brunch-spread-hero.webp",
+        "width": 1400,
+        "height": 933,
+        "bytes": 311194
+      }
+    ]
+  },
+  "assets/hero/chalkboard-limited.jpg": {
+    "src": "assets/optimized/hero/chalkboard-limited.webp",
+    "width": 953,
+    "height": 953,
+    "bytes": 89110,
+    "originalBytes": 104298,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/chalkboard-limited-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 31742
+      },
+      {
+        "src": "assets/optimized/hero/chalkboard-limited.webp",
+        "width": 953,
+        "height": 953,
+        "bytes": 89110
+      }
+    ]
+  },
+  "assets/hero/craft-espresso.jpg": {
+    "src": "assets/optimized/hero/craft-espresso.webp",
+    "width": 1400,
+    "height": 936,
+    "bytes": 55694,
+    "originalBytes": 95141,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/craft-espresso-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 14926
+      },
+      {
+        "src": "assets/optimized/hero/craft-espresso-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 34254
+      },
+      {
+        "src": "assets/optimized/hero/craft-espresso.webp",
+        "width": 1400,
+        "height": 936,
+        "bytes": 55694
+      }
+    ]
+  },
+  "assets/hero/space-light-wide.jpg": {
+    "src": "assets/optimized/hero/space-light-wide.webp",
+    "width": 1400,
+    "height": 936,
+    "bytes": 71464,
+    "originalBytes": 118802,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/space-light-wide-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 18846
+      },
+      {
+        "src": "assets/optimized/hero/space-light-wide-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 44550
+      },
+      {
+        "src": "assets/optimized/hero/space-light-wide.webp",
+        "width": 1400,
+        "height": 936,
+        "bytes": 71464
+      }
+    ]
+  },
+  "assets/hero/space-loft.jpg": {
+    "src": "assets/optimized/hero/space-loft.webp",
+    "width": 788,
+    "height": 1400,
+    "bytes": 96448,
+    "originalBytes": 140267,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/space-loft-480w.webp",
+        "width": 480,
+        "height": 853,
+        "bytes": 43864
+      },
+      {
+        "src": "assets/optimized/hero/space-loft.webp",
+        "width": 788,
+        "height": 1400,
+        "bytes": 96448
+      }
+    ]
+  },
+  "assets/hero/space-shelf.jpg": {
+    "src": "assets/optimized/hero/space-shelf.webp",
+    "width": 1400,
+    "height": 936,
+    "bytes": 65206,
+    "originalBytes": 102091,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/space-shelf-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 18134
+      },
+      {
+        "src": "assets/optimized/hero/space-shelf-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 41396
+      },
+      {
+        "src": "assets/optimized/hero/space-shelf.webp",
+        "width": 1400,
+        "height": 936,
+        "bytes": 65206
+      }
+    ]
+  },
+  "assets/hero/storefront-open.jpg": {
+    "src": "assets/optimized/hero/storefront-open.webp",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 320486,
+    "originalBytes": 319814,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/storefront-open-480w.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 62134
+      },
+      {
+        "src": "assets/optimized/hero/storefront-open-960w.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 267800
+      },
+      {
+        "src": "assets/optimized/hero/storefront-open.webp",
+        "width": 1050,
+        "height": 1400,
+        "bytes": 320486
+      }
+    ]
+  },
+  "assets/hero/storefront-portrait.jpg": {
+    "src": "assets/optimized/hero/storefront-portrait.webp",
+    "width": 768,
+    "height": 1024,
+    "bytes": 127332,
+    "originalBytes": 124764,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/storefront-portrait-480w.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 58622
+      },
+      {
+        "src": "assets/optimized/hero/storefront-portrait.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 127332
+      }
+    ]
+  },
+  "assets/hero/table-brunch-1.jpg": {
+    "src": "assets/optimized/hero/table-brunch-1.webp",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 234652,
+    "originalBytes": 263754,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/table-brunch-1-480w.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 65956
+      },
+      {
+        "src": "assets/optimized/hero/table-brunch-1-960w.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 203076
+      },
+      {
+        "src": "assets/optimized/hero/table-brunch-1.webp",
+        "width": 1050,
+        "height": 1400,
+        "bytes": 234652
+      }
+    ]
+  },
+  "assets/hero/table-brunch-2.jpg": {
+    "src": "assets/optimized/hero/table-brunch-2.webp",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 144484,
+    "originalBytes": 195666,
+    "variants": [
+      {
+        "src": "assets/optimized/hero/table-brunch-2-480w.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 47582
+      },
+      {
+        "src": "assets/optimized/hero/table-brunch-2-960w.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 122822
+      },
+      {
+        "src": "assets/optimized/hero/table-brunch-2.webp",
+        "width": 1050,
+        "height": 1400,
+        "bytes": 144484
+      }
+    ]
+  },
+  "assets/logo-horizontal-clean.png": {
+    "src": "assets/optimized/logo-horizontal-clean.webp",
+    "width": 1000,
+    "height": 227,
+    "bytes": 16806,
+    "originalBytes": 45816,
+    "variants": [
+      {
+        "src": "assets/optimized/logo-horizontal-clean-480w.webp",
+        "width": 480,
+        "height": 109,
+        "bytes": 9510
+      },
+      {
+        "src": "assets/optimized/logo-horizontal-clean-960w.webp",
+        "width": 960,
+        "height": 218,
+        "bytes": 23372
+      },
+      {
+        "src": "assets/optimized/logo-horizontal-clean.webp",
+        "width": 1000,
+        "height": 227,
+        "bytes": 16806
+      }
+    ]
+  },
+  "assets/logo-horizontal-cream-clean.png": {
+    "src": "assets/optimized/logo-horizontal-cream-clean.webp",
+    "width": 1000,
+    "height": 227,
+    "bytes": 20304,
+    "originalBytes": 50722,
+    "variants": [
+      {
+        "src": "assets/optimized/logo-horizontal-cream-clean-480w.webp",
+        "width": 480,
+        "height": 109,
+        "bytes": 11202
+      },
+      {
+        "src": "assets/optimized/logo-horizontal-cream-clean-960w.webp",
+        "width": 960,
+        "height": 218,
+        "bytes": 27504
+      },
+      {
+        "src": "assets/optimized/logo-horizontal-cream-clean.webp",
+        "width": 1000,
+        "height": 227,
+        "bytes": 20304
+      }
+    ]
+  },
+  "assets/logo-square.png": {
+    "src": "assets/optimized/logo-square.webp",
+    "width": 1100,
+    "height": 980,
+    "bytes": 25182,
+    "originalBytes": 85312,
+    "variants": [
+      {
+        "src": "assets/optimized/logo-square-480w.webp",
+        "width": 480,
+        "height": 428,
+        "bytes": 15314
+      },
+      {
+        "src": "assets/optimized/logo-square-960w.webp",
+        "width": 960,
+        "height": 855,
+        "bytes": 34362
+      },
+      {
+        "src": "assets/optimized/logo-square.webp",
+        "width": 1100,
+        "height": 980,
+        "bytes": 25182
+      }
+    ]
+  },
+  "assets/madeleine.jpeg": {
+    "src": "assets/optimized/madeleine.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 75400,
+    "originalBytes": 74995,
+    "variants": [
+      {
+        "src": "assets/optimized/madeleine-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 37498
+      },
+      {
+        "src": "assets/optimized/madeleine.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 75400
+      }
+    ]
+  },
+  "assets/menu/americano.jpeg": {
+    "src": "assets/optimized/menu/americano.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 64122,
+    "originalBytes": 66280,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/americano-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 34686
+      },
+      {
+        "src": "assets/optimized/menu/americano.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 64122
+      }
+    ]
+  },
+  "assets/menu/bacon-burger.jpeg": {
+    "src": "assets/optimized/menu/bacon-burger.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 88206,
+    "originalBytes": 88178,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/bacon-burger-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 49490
+      },
+      {
+        "src": "assets/optimized/menu/bacon-burger.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 88206
+      }
+    ]
+  },
+  "assets/menu/bacon-egg-sandwich.jpeg": {
+    "src": "assets/optimized/menu/bacon-egg-sandwich.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 90750,
+    "originalBytes": 90503,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/bacon-egg-sandwich-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 51556
+      },
+      {
+        "src": "assets/optimized/menu/bacon-egg-sandwich.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 90750
+      }
+    ]
+  },
+  "assets/menu/beef-burger.jpeg": {
+    "src": "assets/optimized/menu/beef-burger.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 88420,
+    "originalBytes": 89141,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/beef-burger-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 50618
+      },
+      {
+        "src": "assets/optimized/menu/beef-burger.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 88420
+      }
+    ]
+  },
+  "assets/menu/black-tea.jpeg": {
+    "src": "assets/optimized/menu/black-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 61826,
+    "originalBytes": 65164,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/black-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 33898
+      },
+      {
+        "src": "assets/optimized/menu/black-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 61826
+      }
+    ]
+  },
+  "assets/menu/blackcurrant-tea.jpeg": {
+    "src": "assets/optimized/menu/blackcurrant-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 63460,
+    "originalBytes": 65054,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/blackcurrant-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 33152
+      },
+      {
+        "src": "assets/optimized/menu/blackcurrant-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 63460
+      }
+    ]
+  },
+  "assets/menu/blue-curacao-soda.jpeg": {
+    "src": "assets/optimized/menu/blue-curacao-soda.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 51692,
+    "originalBytes": 60402,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/blue-curacao-soda-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 28422
+      },
+      {
+        "src": "assets/optimized/menu/blue-curacao-soda.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 51692
+      }
+    ]
+  },
+  "assets/menu/breton-shortbread.jpeg": {
+    "src": "assets/optimized/menu/breton-shortbread.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 33184,
+    "originalBytes": 45415,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/breton-shortbread-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 19220
+      },
+      {
+        "src": "assets/optimized/menu/breton-shortbread.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 33184
+      }
+    ]
+  },
+  "assets/menu/brown-sugar-latte.jpeg": {
+    "src": "assets/optimized/menu/brown-sugar-latte.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 104318,
+    "originalBytes": 93099,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/brown-sugar-latte-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 50214
+      },
+      {
+        "src": "assets/optimized/menu/brown-sugar-latte.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 104318
+      }
+    ]
+  },
+  "assets/menu/brown-sugar-milk-tea.jpeg": {
+    "src": "assets/optimized/menu/brown-sugar-milk-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 101956,
+    "originalBytes": 93214,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/brown-sugar-milk-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 52034
+      },
+      {
+        "src": "assets/optimized/menu/brown-sugar-milk-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 101956
+      }
+    ]
+  },
+  "assets/menu/caesar-salad.jpeg": {
+    "src": "assets/optimized/menu/caesar-salad.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 91382,
+    "originalBytes": 92915,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/caesar-salad-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 50930
+      },
+      {
+        "src": "assets/optimized/menu/caesar-salad.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 91382
+      }
+    ]
+  },
+  "assets/menu/caramel-macchiato.jpeg": {
+    "src": "assets/optimized/menu/caramel-macchiato.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 103104,
+    "originalBytes": 93280,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/caramel-macchiato-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 51162
+      },
+      {
+        "src": "assets/optimized/menu/caramel-macchiato.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 103104
+      }
+    ]
+  },
+  "assets/menu/caramel-milk-tea.jpeg": {
+    "src": "assets/optimized/menu/caramel-milk-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 48936,
+    "originalBytes": 54056,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/caramel-milk-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 26642
+      },
+      {
+        "src": "assets/optimized/menu/caramel-milk-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 48936
+      }
+    ]
+  },
+  "assets/menu/caramel-pudding.jpg": {
+    "src": "assets/optimized/menu/caramel-pudding.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 39120,
+    "originalBytes": 89248,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/caramel-pudding-480w.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 16080
+      },
+      {
+        "src": "assets/optimized/menu/caramel-pudding.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 39120
+      }
+    ]
+  },
+  "assets/menu/chicken-salad.jpeg": {
+    "src": "assets/optimized/menu/chicken-salad.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 73986,
+    "originalBytes": 80214,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/chicken-salad-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 41082
+      },
+      {
+        "src": "assets/optimized/menu/chicken-salad.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 73986
+      }
+    ]
+  },
+  "assets/menu/chocolate-toast.jpeg": {
+    "src": "assets/optimized/menu/chocolate-toast.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 124186,
+    "originalBytes": 115433,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/chocolate-toast-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 71336
+      },
+      {
+        "src": "assets/optimized/menu/chocolate-toast.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 124186
+      }
+    ]
+  },
+  "assets/menu/club-burger.jpeg": {
+    "src": "assets/optimized/menu/club-burger.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 90190,
+    "originalBytes": 92078,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/club-burger-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 52776
+      },
+      {
+        "src": "assets/optimized/menu/club-burger.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 90190
+      }
+    ]
+  },
+  "assets/menu/club-sandwich.jpeg": {
+    "src": "assets/optimized/menu/club-sandwich.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 91986,
+    "originalBytes": 93081,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/club-sandwich-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 52812
+      },
+      {
+        "src": "assets/optimized/menu/club-sandwich.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 91986
+      }
+    ]
+  },
+  "assets/menu/garden-salad.jpeg": {
+    "src": "assets/optimized/menu/garden-salad.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 74338,
+    "originalBytes": 81942,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/garden-salad-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 43360
+      },
+      {
+        "src": "assets/optimized/menu/garden-salad.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 74338
+      }
+    ]
+  },
+  "assets/menu/garlic-toast.jpeg": {
+    "src": "assets/optimized/menu/garlic-toast.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 87394,
+    "originalBytes": 89380,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/garlic-toast-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 52510
+      },
+      {
+        "src": "assets/optimized/menu/garlic-toast.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 87394
+      }
+    ]
+  },
+  "assets/menu/genki-green-tea.jpeg": {
+    "src": "assets/optimized/menu/genki-green-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 60916,
+    "originalBytes": 63543,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/genki-green-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 32402
+      },
+      {
+        "src": "assets/optimized/menu/genki-green-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 60916
+      }
+    ]
+  },
+  "assets/menu/goat-big-breakfast.jpeg": {
+    "src": "assets/optimized/menu/goat-big-breakfast.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 122146,
+    "originalBytes": 146123,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/goat-big-breakfast-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 64330
+      },
+      {
+        "src": "assets/optimized/menu/goat-big-breakfast.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 122146
+      }
+    ]
+  },
+  "assets/menu/ham-egg-burger.jpeg": {
+    "src": "assets/optimized/menu/ham-egg-burger.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 91202,
+    "originalBytes": 90354,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/ham-egg-burger-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 51138
+      },
+      {
+        "src": "assets/optimized/menu/ham-egg-burger.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 91202
+      }
+    ]
+  },
+  "assets/menu/ham-egg-sandwich.jpeg": {
+    "src": "assets/optimized/menu/ham-egg-sandwich.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 93354,
+    "originalBytes": 92019,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/ham-egg-sandwich-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 51386
+      },
+      {
+        "src": "assets/optimized/menu/ham-egg-sandwich.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 93354
+      }
+    ]
+  },
+  "assets/menu/hazelnut-latte.jpeg": {
+    "src": "assets/optimized/menu/hazelnut-latte.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 65990,
+    "originalBytes": 69487,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/hazelnut-latte-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 35960
+      },
+      {
+        "src": "assets/optimized/menu/hazelnut-latte.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 65990
+      }
+    ]
+  },
+  "assets/menu/herbal-tea.jpeg": {
+    "src": "assets/optimized/menu/herbal-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 90088,
+    "originalBytes": 82467,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/herbal-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 42466
+      },
+      {
+        "src": "assets/optimized/menu/herbal-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 90088
+      }
+    ]
+  },
+  "assets/menu/honey-black-tea.jpeg": {
+    "src": "assets/optimized/menu/honey-black-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 68102,
+    "originalBytes": 68360,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/honey-black-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 35118
+      },
+      {
+        "src": "assets/optimized/menu/honey-black-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 68102
+      }
+    ]
+  },
+  "assets/menu/honey-green-tea.jpeg": {
+    "src": "assets/optimized/menu/honey-green-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 60896,
+    "originalBytes": 63542,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/honey-green-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 32446
+      },
+      {
+        "src": "assets/optimized/menu/honey-green-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 60896
+      }
+    ]
+  },
+  "assets/menu/honey-lemon-black-tea.jpeg": {
+    "src": "assets/optimized/menu/honey-lemon-black-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 50944,
+    "originalBytes": 56090,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/honey-lemon-black-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 28242
+      },
+      {
+        "src": "assets/optimized/menu/honey-lemon-black-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 50944
+      }
+    ]
+  },
+  "assets/menu/honey-lemon-soda.jpeg": {
+    "src": "assets/optimized/menu/honey-lemon-soda.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 42348,
+    "originalBytes": 50675,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/honey-lemon-soda-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 23792
+      },
+      {
+        "src": "assets/optimized/menu/honey-lemon-soda.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 42348
+      }
+    ]
+  },
+  "assets/menu/honey-milk-tea.jpeg": {
+    "src": "assets/optimized/menu/honey-milk-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 48994,
+    "originalBytes": 54057,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/honey-milk-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 26414
+      },
+      {
+        "src": "assets/optimized/menu/honey-milk-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 48994
+      }
+    ]
+  },
+  "assets/menu/honey-toast.jpeg": {
+    "src": "assets/optimized/menu/honey-toast.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 110242,
+    "originalBytes": 102423,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/honey-toast-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 59880
+      },
+      {
+        "src": "assets/optimized/menu/honey-toast.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 110242
+      }
+    ]
+  },
+  "assets/menu/latte.jpeg": {
+    "src": "assets/optimized/menu/latte.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 49626,
+    "originalBytes": 58776,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/latte-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 27096
+      },
+      {
+        "src": "assets/optimized/menu/latte.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 49626
+      }
+    ]
+  },
+  "assets/menu/lemon-soda.jpeg": {
+    "src": "assets/optimized/menu/lemon-soda.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 49446,
+    "originalBytes": 54748,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/lemon-soda-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 25768
+      },
+      {
+        "src": "assets/optimized/menu/lemon-soda.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 49446
+      }
+    ]
+  },
+  "assets/menu/milk-crumble-toast.jpeg": {
+    "src": "assets/optimized/menu/milk-crumble-toast.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 116222,
+    "originalBytes": 105941,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/milk-crumble-toast-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 62624
+      },
+      {
+        "src": "assets/optimized/menu/milk-crumble-toast.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 116222
+      }
+    ]
+  },
+  "assets/menu/milk-tea.jpeg": {
+    "src": "assets/optimized/menu/milk-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 52724,
+    "originalBytes": 56687,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/milk-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 28216
+      },
+      {
+        "src": "assets/optimized/menu/milk-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 52724
+      }
+    ]
+  },
+  "assets/menu/mocha.jpeg": {
+    "src": "assets/optimized/menu/mocha.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 69808,
+    "originalBytes": 69615,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/mocha-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 34838
+      },
+      {
+        "src": "assets/optimized/menu/mocha.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 69808
+      }
+    ]
+  },
+  "assets/menu/orange-blackcurrant-tea.jpeg": {
+    "src": "assets/optimized/menu/orange-blackcurrant-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 56860,
+    "originalBytes": 60339,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/orange-blackcurrant-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 30556
+      },
+      {
+        "src": "assets/optimized/menu/orange-blackcurrant-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 56860
+      }
+    ]
+  },
+  "assets/menu/orange-green-tea.jpeg": {
+    "src": "assets/optimized/menu/orange-green-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 55402,
+    "originalBytes": 59109,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/orange-green-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 29592
+      },
+      {
+        "src": "assets/optimized/menu/orange-green-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 55402
+      }
+    ]
+  },
+  "assets/menu/orange-sparkling-americano.jpeg": {
+    "src": "assets/optimized/menu/orange-sparkling-americano.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 90804,
+    "originalBytes": 85711,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/orange-sparkling-americano-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 44624
+      },
+      {
+        "src": "assets/optimized/menu/orange-sparkling-americano.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 90804
+      }
+    ]
+  },
+  "assets/menu/peanut-toast.jpeg": {
+    "src": "assets/optimized/menu/peanut-toast.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 118734,
+    "originalBytes": 109671,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/peanut-toast-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 68122
+      },
+      {
+        "src": "assets/optimized/menu/peanut-toast.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 118734
+      }
+    ]
+  },
+  "assets/menu/pork-burger.jpeg": {
+    "src": "assets/optimized/menu/pork-burger.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 83440,
+    "originalBytes": 86358,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/pork-burger-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 48274
+      },
+      {
+        "src": "assets/optimized/menu/pork-burger.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 83440
+      }
+    ]
+  },
+  "assets/menu/pork-sandwich.jpeg": {
+    "src": "assets/optimized/menu/pork-sandwich.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 87274,
+    "originalBytes": 88392,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/pork-sandwich-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 50212
+      },
+      {
+        "src": "assets/optimized/menu/pork-sandwich.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 87274
+      }
+    ]
+  },
+  "assets/menu/sicilian-lemon-coffee.jpeg": {
+    "src": "assets/optimized/menu/sicilian-lemon-coffee.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 56566,
+    "originalBytes": 60125,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/sicilian-lemon-coffee-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 29278
+      },
+      {
+        "src": "assets/optimized/menu/sicilian-lemon-coffee.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 56566
+      }
+    ]
+  },
+  "assets/menu/sweet-potato-salad.jpeg": {
+    "src": "assets/optimized/menu/sweet-potato-salad.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 82014,
+    "originalBytes": 86800,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/sweet-potato-salad-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 47408
+      },
+      {
+        "src": "assets/optimized/menu/sweet-potato-salad.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 82014
+      }
+    ]
+  },
+  "assets/menu/tropical-fruit-tea.jpeg": {
+    "src": "assets/optimized/menu/tropical-fruit-tea.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 46166,
+    "originalBytes": 51310,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/tropical-fruit-tea-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 24976
+      },
+      {
+        "src": "assets/optimized/menu/tropical-fruit-tea.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 46166
+      }
+    ]
+  },
+  "assets/menu/tropical-soda.jpeg": {
+    "src": "assets/optimized/menu/tropical-soda.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 48158,
+    "originalBytes": 53310,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/tropical-soda-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 25162
+      },
+      {
+        "src": "assets/optimized/menu/tropical-soda.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 48158
+      }
+    ]
+  },
+  "assets/menu/tuna-cheese-baguette.jpeg": {
+    "src": "assets/optimized/menu/tuna-cheese-baguette.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 139104,
+    "originalBytes": 160611,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/tuna-cheese-baguette-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 71330
+      },
+      {
+        "src": "assets/optimized/menu/tuna-cheese-baguette.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 139104
+      }
+    ]
+  },
+  "assets/menu/tuna-corn-sandwich.jpeg": {
+    "src": "assets/optimized/menu/tuna-corn-sandwich.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 90364,
+    "originalBytes": 90170,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/tuna-corn-sandwich-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 50522
+      },
+      {
+        "src": "assets/optimized/menu/tuna-corn-sandwich.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 90364
+      }
+    ]
+  },
+  "assets/menu/veggie-cheese-burger.jpeg": {
+    "src": "assets/optimized/menu/veggie-cheese-burger.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 90408,
+    "originalBytes": 92133,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/veggie-cheese-burger-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 52638
+      },
+      {
+        "src": "assets/optimized/menu/veggie-cheese-burger.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 90408
+      }
+    ]
+  },
+  "assets/menu/veggie-cheese-sandwich.jpeg": {
+    "src": "assets/optimized/menu/veggie-cheese-sandwich.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 106270,
+    "originalBytes": 101658,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/veggie-cheese-sandwich-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 56612
+      },
+      {
+        "src": "assets/optimized/menu/veggie-cheese-sandwich.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 106270
+      }
+    ]
+  },
+  "assets/milk-artisan-banner-2.png": {
+    "src": "assets/optimized/milk-artisan-banner-2.webp",
+    "width": 1600,
+    "height": 841,
+    "bytes": 237568,
+    "originalBytes": 4464421,
+    "variants": [
+      {
+        "src": "assets/optimized/milk-artisan-banner-2-480w.webp",
+        "width": 480,
+        "height": 252,
+        "bytes": 35894
+      },
+      {
+        "src": "assets/optimized/milk-artisan-banner-2-960w.webp",
+        "width": 960,
+        "height": 505,
+        "bytes": 107862
+      },
+      {
+        "src": "assets/optimized/milk-artisan-banner-2.webp",
+        "width": 1600,
+        "height": 841,
+        "bytes": 237568
+      }
+    ]
+  },
+  "assets/rental/loft-projector-1.jpg": {
+    "src": "assets/optimized/rental/loft-projector-1.webp",
+    "width": 1477,
+    "height": 1108,
+    "bytes": 93992,
+    "originalBytes": 108751,
+    "variants": [
+      {
+        "src": "assets/optimized/rental/loft-projector-1-480w.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 20958
+      },
+      {
+        "src": "assets/optimized/rental/loft-projector-1-960w.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 51364
+      },
+      {
+        "src": "assets/optimized/rental/loft-projector-1.webp",
+        "width": 1477,
+        "height": 1108,
+        "bytes": 93992
+      }
+    ]
+  },
+  "assets/rental/loft-projector-2.jpg": {
+    "src": "assets/optimized/rental/loft-projector-2.webp",
+    "width": 1477,
+    "height": 1108,
+    "bytes": 128572,
+    "originalBytes": 142226,
+    "variants": [
+      {
+        "src": "assets/optimized/rental/loft-projector-2-480w.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 25878
+      },
+      {
+        "src": "assets/optimized/rental/loft-projector-2-960w.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 69326
+      },
+      {
+        "src": "assets/optimized/rental/loft-projector-2.webp",
+        "width": 1477,
+        "height": 1108,
+        "bytes": 128572
+      }
+    ]
+  },
+  "assets/rental/loft-projector-3.jpg": {
+    "src": "assets/optimized/rental/loft-projector-3.webp",
+    "width": 1477,
+    "height": 1108,
+    "bytes": 147314,
+    "originalBytes": 154548,
+    "variants": [
+      {
+        "src": "assets/optimized/rental/loft-projector-3-480w.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28898
+      },
+      {
+        "src": "assets/optimized/rental/loft-projector-3-960w.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 79146
+      },
+      {
+        "src": "assets/optimized/rental/loft-projector-3.webp",
+        "width": 1477,
+        "height": 1108,
+        "bytes": 147314
+      }
+    ]
+  },
+  "assets/rental/loft-seating.jpg": {
+    "src": "assets/optimized/rental/loft-seating.webp",
+    "width": 1477,
+    "height": 1108,
+    "bytes": 151734,
+    "originalBytes": 152796,
+    "variants": [
+      {
+        "src": "assets/optimized/rental/loft-seating-480w.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27290
+      },
+      {
+        "src": "assets/optimized/rental/loft-seating-960w.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 77140
+      },
+      {
+        "src": "assets/optimized/rental/loft-seating.webp",
+        "width": 1477,
+        "height": 1108,
+        "bytes": 151734
+      }
+    ]
+  },
+  "assets/space-light-wide.jpg": {
+    "src": "assets/optimized/space-light-wide.webp",
+    "width": 1600,
+    "height": 1069,
+    "bytes": 85952,
+    "originalBytes": 309932,
+    "variants": [
+      {
+        "src": "assets/optimized/space-light-wide-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 18712
+      },
+      {
+        "src": "assets/optimized/space-light-wide-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 46130
+      },
+      {
+        "src": "assets/optimized/space-light-wide.webp",
+        "width": 1600,
+        "height": 1069,
+        "bytes": 85952
+      }
+    ]
+  },
+  "assets/space-loft.jpg": {
+    "src": "assets/optimized/space-loft.webp",
+    "width": 1600,
+    "height": 2844,
+    "bytes": 381634,
+    "originalBytes": 2133447,
+    "variants": [
+      {
+        "src": "assets/optimized/space-loft-480w.webp",
+        "width": 480,
+        "height": 853,
+        "bytes": 45346
+      },
+      {
+        "src": "assets/optimized/space-loft-960w.webp",
+        "width": 960,
+        "height": 1707,
+        "bytes": 142886
+      },
+      {
+        "src": "assets/optimized/space-loft.webp",
+        "width": 1600,
+        "height": 2844,
+        "bytes": 381634
+      }
+    ]
+  },
+  "assets/space-shelf.jpg": {
+    "src": "assets/optimized/space-shelf.webp",
+    "width": 1600,
+    "height": 1069,
+    "bytes": 78896,
+    "originalBytes": 285265,
+    "variants": [
+      {
+        "src": "assets/optimized/space-shelf-480w.webp",
+        "width": 480,
+        "height": 321,
+        "bytes": 17998
+      },
+      {
+        "src": "assets/optimized/space-shelf-960w.webp",
+        "width": 960,
+        "height": 642,
+        "bytes": 42580
+      },
+      {
+        "src": "assets/optimized/space-shelf.webp",
+        "width": 1600,
+        "height": 1069,
+        "bytes": 78896
+      }
+    ]
+  },
+  "assets/storefront-open.jpg": {
+    "src": "assets/optimized/storefront-open.webp",
+    "width": 1600,
+    "height": 2133,
+    "bytes": 959968,
+    "originalBytes": 4614749,
+    "variants": [
+      {
+        "src": "assets/optimized/storefront-open-480w.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 63182
+      },
+      {
+        "src": "assets/optimized/storefront-open-960w.webp",
+        "width": 960,
+        "height": 1280,
+        "bytes": 317886
+      },
+      {
+        "src": "assets/optimized/storefront-open.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 959968
+      }
+    ]
+  },
+  "assets/storefront-portrait.jpg": {
+    "src": "assets/optimized/storefront-portrait.webp",
+    "width": 768,
+    "height": 1024,
+    "bytes": 129068,
+    "originalBytes": 97940,
+    "variants": [
+      {
+        "src": "assets/optimized/storefront-portrait-480w.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 57522
+      },
+      {
+        "src": "assets/optimized/storefront-portrait.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 129068
+      }
+    ]
+  },
+  "assets/storefront-wide.jpg": {
+    "src": "assets/optimized/storefront-wide.webp",
+    "width": 644,
+    "height": 362,
+    "bytes": 37456,
+    "originalBytes": 64637,
+    "variants": [
+      {
+        "src": "assets/optimized/storefront-wide-480w.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 23406
+      },
+      {
+        "src": "assets/optimized/storefront-wide.webp",
+        "width": 644,
+        "height": 362,
+        "bytes": 37456
+      }
+    ]
+  }
+}
