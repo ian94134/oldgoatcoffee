@@ -1,10 +1,18 @@
 // Progressive enhancement: all navigation and page content work without JavaScript.
 (() => {
-  const legacy = location.hash.slice(1);
-  if (['home','menu','rental','about','contact'].includes(legacy)) {
-    location.replace(new URL(legacy === 'home' ? './' : legacy + '/',document.baseURI));
-    return;
+  function redirectLegacy() {
+    const legacy = location.hash.slice(1);
+    if (!['home','menu','rental','about','contact'].includes(legacy)) return false;
+    const destination=new URL(legacy === 'home' ? './' : legacy + '/',document.baseURI);
+    if (destination.pathname===location.pathname) {
+      history.replaceState(null,'',destination);
+      return false;
+    }
+    location.replace(destination);
+    return true;
   }
+  window.addEventListener('hashchange',redirectLegacy);
+  if (redirectLegacy()) return;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const loadBackground=el=>{
     el.style.backgroundImage=el.dataset.lazyBg;
