@@ -68,5 +68,40 @@
     "characters": 59,
     "family": "Noto Serif TC",
     "weights": "400..900"
+  },
+  "sans-f73391ca02ab": {
+    "path": "assets/fonts/sans.6bc8abfda8cd.woff2",
+    "bytes": 217676,
+    "characters": 719,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "sans-5d499703ddcc": {
+    "path": "assets/fonts/sans.8c4028d88f5b.woff2",
+    "bytes": 178552,
+    "characters": 563,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "sans-c860facfd043": {
+    "path": "assets/fonts/sans.e15eff2a054c.woff2",
+    "bytes": 95120,
+    "characters": 333,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "sans-e45793636d56": {
+    "path": "assets/fonts/sans.48e85695bf0f.woff2",
+    "bytes": 139588,
+    "characters": 466,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "sans-189bc049acf8": {
+    "path": "assets/fonts/sans.2eaf0b5fe5f1.woff2",
+    "bytes": 74760,
+    "characters": 273,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
   }
 }
