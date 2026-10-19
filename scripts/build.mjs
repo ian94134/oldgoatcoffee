@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { parseHTML } from 'linkedom';
 import { original, Component, values } from './source.mjs';
 import { fontCSS } from './fonts.mjs';
+import { applyPageSEO, buildSitemap } from './seo.mjs';
 
 const root = new URL('../', import.meta.url);
 const base = 'https://ian94134.github.io/oldgoatcoffee/';
@@ -157,11 +158,6 @@ for (const page of Component.PAGES) {
     if (node.matches('script[type="application/ld+json"]')) {
       const data = JSON.parse(node.textContent);
       if (data['@type'] === 'FAQPage' || (data['@type'] === 'Service' && page !== 'rental')) continue;
-      if (data['@type'] === 'Service') data.url = url;
-      if (data['@type'] === 'CafeOrCoffeeShop') {
-        data.sameAs = [vals.igUrl, vals.fbUrl];
-        data.hasMenu = base + 'menu/';
-      }
       const json = node.cloneNode(false); json.textContent = JSON.stringify(data); target.head.append(json);
     } else target.head.append(node.cloneNode(true));
   }
@@ -182,6 +178,7 @@ for (const page of Component.PAGES) {
     json.textContent = JSON.stringify({'@context':'https://schema.org','@type':'Menu','@id':base+'menu/#menu',name:'老山羊咖啡 林口長庚店 菜單',inLanguage:'zh-Hant-TW',provider:{'@id':base+'#cafe'},hasMenuSection:vals.sections.map(s=>({'@type':'MenuSection',name:s.t,hasMenuItem:s.items.map(i=>({'@type':'MenuItem',name:i.n,description:i.d,offers:{'@type':'Offer',price:String(i.p),priceCurrency:'TWD'}}))}))});
     target.head.append(json);
   }
+  applyPageSEO(target, page, base, vals);
   if (page === 'home') {
     const active = target.querySelector('[data-rsp="pop"]:not([aria-hidden])');
     active.setAttribute('data-pop-current','0');
@@ -226,7 +223,7 @@ for (const {path,document} of outputs) {
   await mkdir(new URL(path.includes('/') ? path.slice(0,path.lastIndexOf('/')+1) : './',root),{recursive:true});
   await writeFile(new URL(path,root),document.toString().replace(/[ \t]+$/gm,'')+'\n');
 }
-await writeFile(new URL('sitemap.xml',root),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+Component.PAGES.map(p=>`  <url><loc>${base}${p==='home'?'':p+'/'}</loc><lastmod>2026-10-16</lastmod></url>`).join('\n')+'\n</urlset>\n');
+await writeFile(new URL('sitemap.xml',root),buildSitemap(Component.PAGES, base, root));
 await writeFile(new URL('.nojekyll',root),'\n');
 // Keep previous hashed assets available for visitors with cached HTML.
 console.log(`Built ${outputs.length} static pages; ${scriptName}; ${cssName}`);
