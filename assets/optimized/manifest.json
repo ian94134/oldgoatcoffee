@@ -365,27 +365,6 @@
       }
     ]
   },
-  "assets/hero/chalkboard-limited.jpg": {
-    "src": "assets/optimized/hero/chalkboard-limited.webp",
-    "width": 953,
-    "height": 953,
-    "bytes": 89110,
-    "originalBytes": 104298,
-    "variants": [
-      {
-        "src": "assets/optimized/hero/chalkboard-limited-480w.webp",
-        "width": 480,
-        "height": 480,
-        "bytes": 31742
-      },
-      {
-        "src": "assets/optimized/hero/chalkboard-limited.webp",
-        "width": 953,
-        "height": 953,
-        "bytes": 89110
-      }
-    ]
-  },
   "assets/hero/craft-espresso.jpg": {
     "src": "assets/optimized/hero/craft-espresso.webp",
     "width": 1400,
@@ -965,24 +944,24 @@
       }
     ]
   },
-  "assets/menu/caramel-pudding.jpg": {
-    "src": "assets/optimized/menu/caramel-pudding.webp",
-    "width": 960,
-    "height": 720,
-    "bytes": 39120,
-    "originalBytes": 89248,
+  "assets/menu/caramel-pudding-v2.png": {
+    "src": "assets/optimized/menu/caramel-pudding-v2.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 99872,
+    "originalBytes": 921887,
     "variants": [
       {
-        "src": "assets/optimized/menu/caramel-pudding-480w.webp",
+        "src": "assets/optimized/menu/caramel-pudding-v2-480w.webp",
         "width": 480,
-        "height": 360,
-        "bytes": 16080
+        "height": 480,
+        "bytes": 53412
       },
       {
-        "src": "assets/optimized/menu/caramel-pudding.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 39120
+        "src": "assets/optimized/menu/caramel-pudding-v2.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 99872
       }
     ]
   },
@@ -1067,6 +1046,27 @@
         "width": 750,
         "height": 750,
         "bytes": 91986
+      }
+    ]
+  },
+  "assets/menu/cold-brew.jpg": {
+    "src": "assets/optimized/menu/cold-brew.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 114198,
+    "originalBytes": 180973,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/cold-brew-480w.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 38378
+      },
+      {
+        "src": "assets/optimized/menu/cold-brew.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 114198
       }
     ]
   },
@@ -1448,27 +1448,6 @@
       }
     ]
   },
-  "assets/menu/mocha.jpeg": {
-    "src": "assets/optimized/menu/mocha.webp",
-    "width": 750,
-    "height": 750,
-    "bytes": 69808,
-    "originalBytes": 69615,
-    "variants": [
-      {
-        "src": "assets/optimized/menu/mocha-480w.webp",
-        "width": 480,
-        "height": 480,
-        "bytes": 34838
-      },
-      {
-        "src": "assets/optimized/menu/mocha.webp",
-        "width": 750,
-        "height": 750,
-        "bytes": 69808
-      }
-    ]
-  },
   "assets/menu/orange-blackcurrant-tea.jpeg": {
     "src": "assets/optimized/menu/orange-blackcurrant-tea.webp",
     "width": 750,
@@ -1613,6 +1592,69 @@
         "width": 750,
         "height": 750,
         "bytes": 56566
+      }
+    ]
+  },
+  "assets/menu/smoked-salmon-salad.png": {
+    "src": "assets/optimized/menu/smoked-salmon-salad.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 97444,
+    "originalBytes": 911785,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/smoked-salmon-salad-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 50530
+      },
+      {
+        "src": "assets/optimized/menu/smoked-salmon-salad.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 97444
+      }
+    ]
+  },
+  "assets/menu/smoked-salmon-sourdough.png": {
+    "src": "assets/optimized/menu/smoked-salmon-sourdough.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 113272,
+    "originalBytes": 1030962,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/smoked-salmon-sourdough-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 58592
+      },
+      {
+        "src": "assets/optimized/menu/smoked-salmon-sourdough.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 113272
+      }
+    ]
+  },
+  "assets/menu/sunset-yuzu-coffee.png": {
+    "src": "assets/optimized/menu/sunset-yuzu-coffee.webp",
+    "width": 750,
+    "height": 750,
+    "bytes": 58036,
+    "originalBytes": 591513,
+    "variants": [
+      {
+        "src": "assets/optimized/menu/sunset-yuzu-coffee-480w.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 29652
+      },
+      {
+        "src": "assets/optimized/menu/sunset-yuzu-coffee.webp",
+        "width": 750,
+        "height": 750,
+        "bytes": 58036
       }
     ]
   },

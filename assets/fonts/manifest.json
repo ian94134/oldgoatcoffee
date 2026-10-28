@@ -103,5 +103,54 @@
     "characters": 273,
     "family": "Noto Sans TC",
     "weights": "300..700"
+  },
+  "sans-3231cfe5db0d": {
+    "path": "assets/fonts/sans.32a12b161fc7.woff2",
+    "bytes": 222912,
+    "characters": 737,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "serif-53b2fbbb3697": {
+    "path": "assets/fonts/serif.4a3104fb83e8.woff2",
+    "bytes": 82840,
+    "characters": 184,
+    "family": "Noto Serif TC",
+    "weights": "400..900"
+  },
+  "sans-a7db965ab339": {
+    "path": "assets/fonts/sans.1fe02ca87a15.woff2",
+    "bytes": 184380,
+    "characters": 576,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "serif-e6b33c6f8d07": {
+    "path": "assets/fonts/serif.aac6b8e0f939.woff2",
+    "bytes": 22892,
+    "characters": 49,
+    "family": "Noto Serif TC",
+    "weights": "400..900"
+  },
+  "sans-a24d33c622ca": {
+    "path": "assets/fonts/sans.4ca4bef3de9f.woff2",
+    "bytes": 94740,
+    "characters": 330,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "sans-c03365558ca1": {
+    "path": "assets/fonts/sans.d97137809bdc.woff2",
+    "bytes": 138720,
+    "characters": 462,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
+  },
+  "sans-caf4ef6fd69a": {
+    "path": "assets/fonts/sans.e5109c3e97b8.woff2",
+    "bytes": 73560,
+    "characters": 266,
+    "family": "Noto Sans TC",
+    "weights": "300..700"
   }
 }

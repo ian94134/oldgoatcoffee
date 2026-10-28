@@ -92,7 +92,7 @@
   "mainEntity": [
     { "@type": "Question", "name": "老山羊咖啡幾點開門？公休嗎？", "acceptedAnswer": { "@type": "Answer", "text": "平日 06:30–16:30，週末 08:30–17:30。採不定期公休，公休日會在 Instagram 與 Facebook 公告。" } },
     { "@type": "Question", "name": "附近有停車的地方嗎？", "acceptedAnswer": { "@type": "Answer", "text": "店在桃園市龜山區復興北路6巷47號，鄰近林口長庚商圈，周邊設有收費停車場。" } },
-    { "@type": "Question", "name": "內用有什麼規定？", "acceptedAnswer": { "@type": "Answer", "text": "低消每人 $120。盤餐類僅供內用；平日不限時，客滿時用餐限制 120 分鐘。內用區提供免費 Wi-Fi 與插座，禁帶外食，2 樓共享空間遇包場時會暫停開放。" } },
+    { "@type": "Question", "name": "內用有什麼規定？", "acceptedAnswer": { "@type": "Answer", "text": "低消每人 $120。盤餐類僅供內用；平日不限時，客滿時用餐限制 90 分鐘。內用區提供免費 Wi-Fi 與插座，禁帶外食，2 樓共享空間遇包場時會暫停開放。" } },
     { "@type": "Question", "name": "可以刷卡嗎？", "acceptedAnswer": { "@type": "Answer", "text": "目前僅收現金，取餐時付款即可。" } },
     { "@type": "Question", "name": "有外送和線上點餐嗎？", "acceptedAnswer": { "@type": "Answer", "text": "提供內用、外帶、外送與線上點餐；可用 iCHEF 線上系統下單後到店取餐。" } },
     { "@type": "Question", "name": "可以包場辦活動嗎？費用怎麼算？", "acceptedAnswer": { "@type": "Answer", "text": "2 樓共享空間可包場，人數 8–18 人、每場 2 小時。場地費平日 1500 元、假日 3000 元，低消每人 120 元，投影機租借 500 元。需於活動日 7 日前預約，訂金為場地費全額，7 日以上取消可全額退費。逾時以每 30 分鐘為單位加收場地費 1/2 及每人第二次低消。" } },
@@ -238,7 +238,7 @@
       <p style="margin: 0; font-size: 16px; line-height: 2; color: #6B5A48; max-width: 42ch;">林口長庚旁的咖啡與早午餐小店，主打現做三明治、漢堡、沙拉與咖啡飲品；內用、外帶、外送都方便。</p>
       <div style="display: flex; gap: 12px; flex-wrap: wrap;">
         <a href="https://shop.ichefpos.com/store/BKXtxlFQ/ordering" target="_blank" rel="noopener" style="background: #A6503B; color: #F6F1E8; padding: 14px 30px; font-size: 15px; letter-spacing: 0.2em; border-radius: 2px;" style-hover="background: #3B2A20; color: #F6F1E8;">預定快取</a>
-        <button onClick="{{ goMenu }}" style="background: none; color: #3B2A20; border: 1px solid #3B2A20; cursor: pointer; padding: 14px 30px; font-size: 15px; letter-spacing: 0.2em; font-family: 'Noto Sans TC', sans-serif; border-radius: 2px;" style-hover="background: #3B2A20; color: #F0E8D8;">看菜單</button>
+        <button onClick="{{ goMenu }}" style="white-space: nowrap; background: none; color: #3B2A20; border: 1px solid #3B2A20; cursor: pointer; padding: 14px 30px; font-size: 15px; letter-spacing: 0.2em; font-family: 'Noto Sans TC', sans-serif; border-radius: 2px;" style-hover="background: #3B2A20; color: #F0E8D8;">看菜單</button>
         <a href="https://lin.ee/QDPOw4B" target="_blank" rel="noopener" style="border: 1px solid #6B8E23; color: #55701C; padding: 14px 30px; font-size: 15px; letter-spacing: 0.2em; border-radius: 2px;" style-hover="background: #55701C; color: #F6F1E8;">加 LINE 詢問</a>
       </div>
     </div>
@@ -281,12 +281,43 @@
     </div>
   </section>
 
+
   <sc-if value="{{ showSeasonal }}" hint-placeholder-val="{{ true }}">
     <section style="max-width: 1120px; margin: 48px auto 0; padding: 0 24px;">
-      <div style="border: 1px dashed #A6503B; background: rgba(166,80,59,0.06); padding: 18px 26px; display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap;">
-        <span style="font-size: 12px; letter-spacing: 0.32em; color: #A6503B; font-weight: 700;">期間限定</span>
-        <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; font-weight: 700; letter-spacing: 0.06em;">芭氣美式 NT$150</span>
-        <span style="font-size: 14px; color: #6B5A48;">紅心芭樂與義式濃縮，搭配沁涼氣泡水的台式浪漫。</span>
+      <div style="border: 1px dashed #A6503B; background: rgba(166,80,59,0.06); padding: 28px 30px 32px; display: flex; flex-direction: column; gap: 22px;">
+        <div style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;">
+          <span style="font-family: 'Noto Serif TC', serif; font-size: 22px; font-weight: 700; letter-spacing: 0.1em;">期間限定</span>
+          <span style="font-size: 12px; letter-spacing: 0.42em; color: #A6503B;">LIMITED</span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px;">
+          <div style="display: flex; flex-direction: column; gap: 10px; min-width: 0;">
+            <img loading="lazy" src="assets/menu/sunset-yuzu-coffee.png" alt="落日柚香啡紅" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin-bottom: 4px;">
+            <span style="font-size: 12px; letter-spacing: 0.28em; color: #A6503B;">飲品</span>
+            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px;">
+              <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; font-weight: 700; letter-spacing: 0.04em; text-wrap: pretty;">落日柚香啡紅</span>
+              <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; color: #A6503B; white-space: nowrap;">$&nbsp;165</span>
+            </div>
+            <span style="font-size: 14px; line-height: 1.8; color: #6B5A48; text-wrap: pretty;">咖啡與柚子的碰撞，綿密如雲，漸層如夕陽緩慢變化。</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px; min-width: 0;">
+            <img loading="lazy" src="assets/menu/smoked-salmon-sourdough.png" alt="燻鮭魚酸種開放式三明治" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin-bottom: 4px;">
+            <span style="font-size: 12px; letter-spacing: 0.28em; color: #A6503B;">盤餐</span>
+            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px;">
+              <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; font-weight: 700; letter-spacing: 0.04em; text-wrap: pretty;">燻鮭魚酸種開放式三明治</span>
+              <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; color: #A6503B; white-space: nowrap;">$&nbsp;290</span>
+            </div>
+            <span style="font-size: 14px; line-height: 1.8; color: #6B5A48; text-wrap: pretty;">酸種麵包配嚴選燻鮭，洋蔥與檸檬提味，清爽的秋日幸福。</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px; min-width: 0;">
+            <img loading="lazy" src="assets/menu/smoked-salmon-salad.png" alt="燻鮭魚水果沙拉" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin-bottom: 4px;">
+            <span style="font-size: 12px; letter-spacing: 0.28em; color: #A6503B;">沙拉</span>
+            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px;">
+              <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; font-weight: 700; letter-spacing: 0.04em; text-wrap: pretty;">燻鮭魚水果沙拉</span>
+              <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; color: #A6503B; white-space: nowrap;">$&nbsp;265</span>
+            </div>
+            <span style="font-size: 14px; line-height: 1.8; color: #6B5A48; text-wrap: pretty;">燻鮭魚與爽脆生菜，搭配清爽開胃的沙拉醬。</span>
+          </div>
+        </div>
       </div>
     </section>
   </sc-if>
@@ -332,21 +363,40 @@
   <section style="max-width: 1120px; margin: 48px auto 0; padding: 0 24px;">
     <div style="border: 1px solid #DFD5C3; background: #FDFAF3; padding: 20px 32px; display: flex; flex-direction: column; gap: 18px">
       <span style="font-size: 16px; letter-spacing: 0.32em; color: #A6503B; font-weight: 700">內用須知</span>
-      <div data-rsp="dinein" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 32px;">
+      <div data-rsp="dinein" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 32px;">
         <div style="display: flex; flex-direction: column; gap: 7px;">
           <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">桌邊掃碼點餐</span>
           <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">內用請於桌上掃碼點餐，結帳後為您出餐。</span>
         </div>
         <div style="display: flex; flex-direction: column; gap: 7px;">
-          <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">客滿限時 120 分鐘</span>
-          <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">平常不限時；遇客滿內用限時 120 分鐘，中途加點可重新計時。</span>
+          <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">客滿限時 90 分鐘</span>
+          <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">平常不限時；遇客滿內用限時 90 分鐘，中途加點可重新計時。</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1120px; margin: 24px auto 0; padding: 0 24px;">
+    <div style="border: 1px solid #DFD5C3; background: #FDFAF3; padding: 20px 32px; display: flex; flex-direction: column; gap: 18px">
+      <span style="font-size: 16px; letter-spacing: 0.32em; color: #A6503B; font-weight: 700">優惠活動</span>
+      <div data-rsp="dinein" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 32px;">
+        <div style="display: flex; flex-direction: column; gap: 7px;">
+          <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">會員點數套餐折 20</span>
+          <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">會員以點數消費主餐＋任選飲品，折 20 元。</span>
         </div>
         <div style="display: flex; flex-direction: column; gap: 7px;">
-          <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">飲品續杯折 10 元</span>
-          <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">同一次內用續杯飲品折 10 元，不得與其他優惠並用。</span>
+          <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">儲值點數最高 88 折</span>
+          <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">會員儲值點數，最高享 88 折。</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 7px;">
+          <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">平日續杯折 20</span>
+          <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">平日內用續杯飲料折 20 元。</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 7px;">
+          <span style="font-family: 'Noto Serif TC', serif; font-size: 16px; font-weight: 700; letter-spacing: 0.06em;">早起優惠套餐</span>
+          <span style="font-size: 14px; line-height: 1.95; color: #6B5A48;">平日 09:30 前，享早起優惠套餐。</span>
         </div>
       </div><span style="font-size: 12px; line-height: 1.9; color: #8A7660; text-align: right">各項優惠與規則，老山羊保有解釋與修改之權利。</span>
-      
     </div>
   </section>
 
@@ -434,17 +484,7 @@
   <section data-rsp="menuhead" style="max-width: 860px; margin: 0 auto; padding: 72px 24px 8px; text-align: center; display: flex; flex-direction: column; gap: 16px; align-items: center;">
     <h1 style="margin: 0; font-family: 'Noto Serif TC', serif; font-size: clamp(32px, 6vw, 42px); font-weight: 900; letter-spacing: 0.1em;">菜單</h1><span style="font-size: 12px; letter-spacing: 0.42em; color: #A6503B;">MENU</span>
     
-    <div data-rsp="combo" style="display: flex; align-items: center; gap: 20px; text-align: left; border: 1px solid #C8B69B; background: #FAF4E8; padding: 18px 26px; border-radius: 3px; margin-top: 4px;">
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 2px; flex: none; padding-right: 20px; border-right: 1px dashed #C8B69B;">
-        <span style="font-family: 'Noto Serif TC', serif; font-size: 30px; font-weight: 900; color: #A6503B; line-height: 1;">－20</span>
-        <span style="font-size: 11px; letter-spacing: 0.3em; color: #A6503B;">NT$</span>
-      </div>
-      <div style="display: flex; flex-direction: column; gap: 5px;">
-        <span style="font-size: 15px; font-weight: 700; letter-spacing: 0.08em;">平日主餐＋飲品　套餐折扣</span>
-        <span style="font-size: 13px; line-height: 1.8; color: #6B5A48;">平日任一主餐搭配任一飲品，結帳現折 20 元。內用外帶皆適用。</span>
-      </div>
-    </div>
-    <p style="margin: 0; font-size: 14px; line-height: 2; color: #6B5A48; max-width: 52ch;">目前僅收現金，價格以店內與線上點餐系統為準<br>盤餐類僅供內用，客滿時限制120min</p>
+    <p style="margin: 0; font-size: 14px; line-height: 2; color: #6B5A48; max-width: 52ch;">目前僅收現金，價格以店內與線上點餐系統為準<br>盤餐類僅供內用，客滿時限制90min</p>
     <a href="https://shop.ichefpos.com/store/BKXtxlFQ/ordering" target="_blank" rel="noopener" style="background: #5C4033; color: #F0E8D8; padding: 12px 28px; font-size: 14px; letter-spacing: 0.22em; border-radius: 2px;" style-hover="background: #A6503B; color: #F0E8D8;">線上外帶點餐</a>
   </section><section style="max-width: 860px; margin: 0 auto; padding: 40px 24px 96px; display: flex; flex-direction: column; gap: 60px;">
     <sc-for list="{{ sections }}" as="sec" hint-placeholder-count="5">
@@ -456,9 +496,6 @@
           <sc-if value="{{ sec.note }}" hint-placeholder-val="{{ false }}">
             <span style="flex: none; font-size: 11px; letter-spacing: 0.12em; color: #6B5A48; border: 1px solid #DFD5C3; padding: 4px 10px; border-radius: 999px; white-space: nowrap;">{{ sec.note }}</span>
           </sc-if>
-          <sc-if value="{{ sec.combo }}" hint-placeholder-val="{{ false }}">
-            <span style="flex: none; font-size: 11px; letter-spacing: 0.12em; color: #A6503B; border: 1px solid #C8B69B; background: #FAF4E8; padding: 4px 10px; border-radius: 999px; white-space: nowrap;">平日主餐＋飲品・折 ＄20</span>
-          </sc-if>
         </div>
         <sc-for list="{{ sec.items }}" as="item" hint-placeholder-count="4">
           <div data-rsp="mitem" style="display: flex; align-items: center; gap: 16px; padding: 14px 0; border-bottom: 1px dashed #DFD5C3;">
@@ -467,9 +504,12 @@
             </sc-if>
             <div style="display: flex; flex-direction: column; gap: 4px; min-width: 0;">
               <span style="font-size: 16px; font-weight: 500; letter-spacing: 0.05em;">{{ item.n }}</span><span style="font-size: 13px; line-height: 1.7; color: #6B5A48;">{{ item.d }}</span>
+              <sc-if value="{{ item.opt }}" hint-placeholder-val="{{ false }}">
+                <span style="align-self: flex-start; margin-top: 4px; font-size: 12px; letter-spacing: 0.12em; color: #A6503B; border: 1px solid #C8B69B; background: #FAF4E8; padding: 3px 10px; border-radius: 999px;">{{ item.opt }}</span>
+              </sc-if>
             </div>
             <span style="flex: 1 1 auto;"></span>
-            <span style="font-family: 'Noto Serif TC', serif; font-size: 18px; color: #A6503B; white-space: nowrap;">$&nbsp;{{ item.p }}</span>
+            <sc-if value="{{ item.p }}" hint-placeholder-val="{{ true }}"><span style="font-family: 'Noto Serif TC', serif; font-size: 18px; color: #A6503B; white-space: nowrap;">$&nbsp;{{ item.p }}</span></sc-if>
           </div>
         </sc-for>
       </div>
@@ -852,7 +892,7 @@
         </div>
         <div style="border-bottom: 1px dashed #DFD5C3; padding: 22px 2px; display: flex; flex-direction: column; gap: 8px;">
           <span style="font-family: 'Noto Serif TC', serif; font-size: 17px; font-weight: 700; letter-spacing: 0.04em; color: #3B2A20;">Q．內用有什麼規定？</span>
-          <span style="font-size: 14px; line-height: 1.9; color: #6B5A48;">A．低消每人 $120，客滿時用餐限制 120 分鐘。內用區提供免費 Wi-Fi 與插座，禁帶外食。</span>
+          <span style="font-size: 14px; line-height: 1.9; color: #6B5A48;">A．低消每人 $120，客滿時用餐限制 90 分鐘。內用區提供免費 Wi-Fi 與插座，禁帶外食。</span>
         </div>
         <div style="border-bottom: 1px dashed #DFD5C3; padding: 22px 2px; display: flex; flex-direction: column; gap: 8px;">
           <span style="font-family: 'Noto Serif TC', serif; font-size: 17px; font-weight: 700; letter-spacing: 0.04em; color: #3B2A20;">Q．有 Wi-Fi 和插座嗎？</span>
@@ -909,7 +949,7 @@
 </footer>
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{
-  &quot;announcement&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;平日任一主餐＋飲品現折 20 元&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;全站&quot; },
+  &quot;announcement&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;全站&quot; },
   &quot;igUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;https://www.instagram.com/oldgoatcafe/&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;社群連結&quot; },
   &quot;fbUrl&quot;: { &quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;https://www.facebook.com/people/%E8%80%81%E5%B1%B1%E7%BE%8A%E5%92%96%E5%95%A1%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E5%BA%97%E8%BC%95%E9%A3%9F%E6%97%A9%E5%8D%88%E9%A4%90%E5%A4%96%E5%B8%B6%E5%A4%96%E9%80%81/61590209537951/&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;社群連結&quot; },
   &quot;showSeasonal&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;首頁&quot; },
@@ -928,7 +968,6 @@ class Component extends DCLogic {
     { src: 'assets/hero/bar-portafilters.jpg', alt: '吧台上的木柄沖煮把手與窗外綠意' },
     { src: 'assets/hero/craft-espresso.jpg', alt: '吧台的義式咖啡機' },
     { src: 'assets/hero/bar-espresso-close.jpg', alt: '義式咖啡機沖煮把手特寫' },
-    { src: 'assets/hero/chalkboard-limited.jpg', alt: '期間限定芭氣美式手寫黑板' },
     { src: 'assets/hero/storefront-open.jpg', alt: '門口的營業中木牌與植栽' },
   ];
   heroTo(i, manual) {
@@ -999,7 +1038,7 @@ class Component extends DCLogic {
   static PAGES = ['home', 'menu', 'rental', 'about', 'contact'];
   static META = {
     home: ['老山羊咖啡 林口長庚店｜龜山早午餐・咖啡・輕食・包場', '林口長庚醫院旁的老山羊咖啡（桃園龜山），清晨 06:30 開門。現做三明治、漢堡、沙拉、厚片與手沖咖啡，使用動物福利鮮奶。內用、外帶、外送、線上點餐與活動包場，鄰近長庚醫院、機捷 A8。'],
-    menu: ['菜單與價位｜老山羊咖啡 林口長庚店・龜山早午餐', '老山羊咖啡完整菜單：現做三明治 65 元起、漢堡、沙拉、抹醬厚片 60 元、咖啡與鮮奶茶。主餐加飲品有套餐折扣，可線上點餐外帶。'],
+    menu: ['菜單與價位｜老山羊咖啡 林口長庚店・龜山早午餐', '老山羊咖啡完整菜單：現做三明治 65 元起、漢堡、沙拉、抹醬厚片 60 元、咖啡與鮮奶茶，可線上點餐外帶。'],
     rental: ['包場與共享空間租借｜老山羊咖啡 林口長庚店', '林口長庚咖啡廳包場：2 樓共享空間 8–18 人、每場 2 小時。平日場地費 1500 元、假日 3000 元，低消每人 120 元，投影機 500 元，需 7 日前預約。'],
     about: ['關於老山羊咖啡｜林口長庚商圈不限時咖啡廳', '林口長庚商圈的不限時咖啡廳，免費 Wi-Fi 與插座，選用動物福利鮮奶。看診前後、上班日常都能坐下來喝一杯。'],
     contact: ['聯絡與線上點餐｜老山羊咖啡 林口長庚店', '桃園市龜山區復興北路6巷47號，電話 0900-415-590。營業時間、線上點餐、外送與包場洽詢方式。'],
@@ -1048,7 +1087,7 @@ class Component extends DCLogic {
           '@type': 'MenuItem',
           name: i.n,
           description: i.d,
-          offers: { '@type': 'Offer', price: String(i.p), priceCurrency: 'TWD' },
+          ...(i.p ? { offers: { '@type': 'Offer', price: String(i.p), priceCurrency: 'TWD' } } : {}),
         })),
       })),
     });
@@ -1106,7 +1145,7 @@ class Component extends DCLogic {
   }
   renderVals() {
     const p = this.state.page;
-    const ann = (this.props.announcement ?? '平日任一主餐＋飲品現折 20 元').trim();
+    const ann = (this.props.announcement ?? '').trim();
     const clean = u => { const s = (u ?? '').trim(); return /^https?:\/\/.+\..+\/.+/.test(s) ? s : ''; };
     const ig = clean(this.props.igUrl) || 'https://www.instagram.com/oldgoatcafe/';
     const fb = clean(this.props.fbUrl) || 'https://www.facebook.com/people/%E8%80%81%E5%B1%B1%E7%BE%8A%E5%92%96%E5%95%A1%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E5%BA%97%E8%BC%95%E9%A3%9F%E6%97%A9%E5%8D%88%E9%A4%90%E5%A4%96%E5%B8%B6%E5%A4%96%E9%80%81/61590209537951/';
@@ -1192,15 +1231,17 @@ class Component extends DCLogic {
       ],
       sections: [
         { t: '期間限定', en: 'LIMITED', items: [
-          { n: '芭氣美式', d: '紅心芭樂與義式濃縮，搭配沁涼氣泡水，顏值與風味兼具的台式浪漫限定！', p: 150, img: '' },
+          { n: '落日柚香啡紅', d: '咖啡＆柚子的碰撞，綿密細緻的口感如雲朵般輕柔，漸層如同浪漫的夕陽緩慢變化，帶給您視覺與味覺的雙重療癒！', p: 165, img: 'assets/menu/sunset-yuzu-coffee.png' },
+          { n: '燻鮭魚酸種開放式三明治', d: '酸種麵包與嚴選燻鮭的搭配，鮭魚油脂加上洋蔥、檸檬的提味，享受來自清爽秋季的幸福！', p: 290, img: 'assets/menu/smoked-salmon-sourdough.png' },
+          { n: '燻鮭魚水果沙拉', d: '燻鮭魚與爽脆生菜，搭配沙拉醬的清爽與開胃，風味絕佳！', p: 265, img: 'assets/menu/smoked-salmon-salad.png' },
         ]},
         { t: '咖啡系列', combo: '飲品', en: 'COFFEE', items: [
-          { n: '精選美式', d: '經典純粹的咖啡風味！精選優質咖啡豆萃取，風味甘醇濃厚', p: 85, img: 'assets/menu/americano.jpeg' },
-          { n: '精選拿鐵', d: '咖啡的醇厚與牛奶的甜美完美交融，口感圓潤滑順～', p: 100, img: 'assets/menu/latte.jpeg' },
+          { n: '精選美式', d: '經典純粹的咖啡風味！精選優質咖啡豆萃取，風味甘醇濃厚', p: 85, img: 'assets/menu/americano.jpeg', opt: '可選精品莊園淺焙豆' },
+          { n: '精選拿鐵', d: '咖啡的醇厚與牛奶的甜美完美交融，口感圓潤滑順～', p: 100, img: 'assets/menu/latte.jpeg', opt: '可選精品莊園淺焙豆' },
           { n: '焦糖瑪奇朵', d: '入口先是焦糖微甜焦香，接著絲滑奶香與咖啡醇厚，層次奢華豐富', p: 110, img: 'assets/menu/caramel-macchiato.jpeg' },
           { n: '榛果拿鐵', d: '在經典拿鐵中加入溫潤優雅的堅果香氣，溫潤順口，極具療癒', p: 110, img: 'assets/menu/hazelnut-latte.jpeg' },
           { n: '黑糖拿鐵', d: '台灣黑糖融入經典拿鐵，焦香與奶香完美交織，每一口都是甜蜜滋味', p: 110, img: 'assets/menu/brown-sugar-latte.jpeg' },
-          { n: '摩卡咖啡', d: '巧克力與咖啡的完美戀曲！濃郁巧克力與醇香咖啡，風味細膩迷人', p: 110, img: 'assets/menu/mocha.jpeg' },
+          { n: '冰釀咖啡', d: '低溫長時間慢慢萃取，口感圓潤乾淨，尾韻帶著自然甘甜', p: 185, img: 'assets/menu/cold-brew.jpg' },
           { n: '檸檬西西里氣泡咖啡', d: '夏日必喝的極致清爽！微酸、微甜與咖啡的甘苦在氣泡中爆發，消暑又解膩！', p: 145, img: 'assets/menu/sicilian-lemon-coffee.jpeg' },
           { n: '香橙氣泡美式', d: '果香滿滿的清爽系！柳橙鮮甜、咖啡甘醇，結合清爽氣泡水，層次鮮明、沁涼提神', p: 145, img: 'assets/menu/orange-sparkling-americano.jpeg' },
         ]},
@@ -1264,7 +1305,7 @@ class Component extends DCLogic {
         { t: '甜點系列', en: 'DESSERT', items: [
           { n: '瑪德蓮', d: '奶油香氣濃郁，口感鬆軟細緻', p: 80, img: 'assets/madeleine.jpeg' },
           { n: '布列塔尼酥餅', d: '經典法式圓形酥餅，外層硬脆內酥、內層酥鬆入口即化，搭配咖啡或茶再適合不過', p: 60, img: 'assets/menu/breton-shortbread.jpeg' },
-          { n: '鹽之花手工焦糖布丁', d: '柔滑軟嫩的布丁與苦甜焦糖交織，巧妙搭配產自法國的頂級鹽之花，帶來驚豔無比的奢華享受！', p: 120, img: 'assets/menu/caramel-pudding.jpg' },
+          { n: '鹽之花手工焦糖布丁', d: '柔滑軟嫩的布丁與苦甜焦糖交織，巧妙搭配產自法國的頂級鹽之花，帶來驚豔無比的奢華享受！', p: 120, img: 'assets/menu/caramel-pudding-v2.png' },
         ]},
       ],
     };
